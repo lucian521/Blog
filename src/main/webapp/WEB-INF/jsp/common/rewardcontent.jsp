@@ -28,14 +28,16 @@
                 <c:otherwise>
                     ${post.content}
 
+                    大爷打赏
+                    各位大爷：大老爷们，有钱的捧个钱场，没钱的捧个人场，100万不多，8分不少，觉得喜欢随便打赏，不喜欢就踩两脚。
+                    两种打赏方式：见下图 扫一扫
                     <div class="lanrenzhijia">
                         <div class="title cf">
                             <h2 class="fl"></h2>
                             <ul class="title-list fr cf ">
-                                <li class="on">￥1.11</li>
-                                <li>￥2.22</li>
-                                <li>￥1.1</li>
-                                <li>￥1.1</li>
+                                <li class="on">￥1.22</li>
+                                <li>￥2.36</li>
+                                <li>￥5.08</li>
                                 <li>土豪</li>
                                 <p><b></b></p>
                             </ul>
@@ -44,8 +46,8 @@
                             <!--案例1-->
                             <div class="product show">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
-                                        <p class="mt10">打赏 5元</p>
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx122.png">
+                                        <p class="mt10">打赏 1.22元</p>
                                     </li>
                                 </ul>
                             </div>
@@ -53,33 +55,26 @@
                             <!--案例2-->
                             <div class="product">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
-                                        <p class="mt10">打赏 5元</p>
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx236.png">
+                                        <p class="mt10">打赏 2.36元</p>
                                     </li>
                                 </ul>
                             </div>
                             <!--案例3-->
                             <div class="product">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
-                                        <p class="mt10">打赏 5元</p>
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx508.png">
+                                        <p class="mt10">打赏 5.08元</p>
                                     </li>
 
                                 </ul>
 
                             </div>
                             <!--案例4-->
-                            <div class="product">
-                                <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
-                                        <p class="mt10">打赏 5元</p>
-                                    </li>
-                                </ul>
-                            </div>
                             <!--案例5-->
                             <div class="product">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wxzdy.png">
                                         <p class="mt10">我是土豪，我看心情   </p>
                                     </li>
                                 </ul>
@@ -104,9 +99,8 @@
                             <h2 class="fl"></h2>
                             <ul class="titlezfb-list fr cf ">
                                 <li class="on">￥1.22</li>
-                                <li>￥2.22</li>
-                                <li>￥1.1</li>
-                                <li>￥1.1</li>
+                                <li>￥2.36</li>
+                                <li>￥5.08</li>
                                 <li>土豪</li>
                                 <p><b></b></p>
                             </ul>
@@ -115,7 +109,7 @@
                             <!--案例1-->
                             <div class="productzfb show">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/zfb122.png">
                                         <p class="mt10">打赏 1.22元</p>
                                     </li>
                                 </ul>
@@ -124,33 +118,26 @@
                             <!--案例2-->
                             <div class="productzfb">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
-                                        <p class="mt10">打赏 5元</p>
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/zfb236.png">
+                                        <p class="mt10">打赏 2.36元</p>
                                     </li>
                                 </ul>
                             </div>
                             <!--案例3-->
                             <div class="productzfb">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
-                                        <p class="mt10">打赏 5元</p>
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/zfb508.png">
+                                        <p class="mt10">打赏 5.08元</p>
                                     </li>
 
                                 </ul>
 
                             </div>
                             <!--案例4-->
-                            <div class="productzfb">
-                                <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
-                                        <p class="mt10">打赏 5元</p>
-                                    </li>
-                                </ul>
-                            </div>
                             <!--案例5-->
                             <div class="productzfb">
                                 <ul class="cf">
-                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/wx5.png">
+                                    <li class="ml0"> <img src="${g.domain}/resource/img/reward/zfbzdy.png">
                                         <p class="mt10">我是土豪，我看心情   </p>
                                     </li>
                                 </ul>
@@ -184,16 +171,7 @@
                 <span class="month"><fmt:formatDate value="${post.createTime}" pattern="MMM"/></span>
                 <span class="year"><fmt:formatDate value="${post.createTime}" pattern="yyyy" /></span>
             </li>
-            <li class="post_read">${post.rcount}4人阅读</li>
-            <c:if test="${post.type=='post'}">
-                <li class="post_category"><a href="${g.domain}/categorys/${post.category.name}">${post.category.name}</a></li>
-            </c:if>
-            <li class="post_author">
-                <a title="由${post.user.nickName}发布" href="#">${post.user.nickName}</a>
-            </li>
-            <li class="post_comment">
-                <a title="${post.title}" href="#respond">发表评论</a>
-            </li>
+
         </ul>
     </div>
 </div>

@@ -23,9 +23,6 @@
             <div id="comment_header" class="clearfix">
                 <span class="comments_right">评论 (${post.ccount})</span>
             </div>
-            <div id="comment_header" class="clearfix">
-                <span class="comments_right">评论234 (${post.ccount})</span>
-            </div>
             <div id="comments">
                 <div id="comment_area">
                     <c:choose>
