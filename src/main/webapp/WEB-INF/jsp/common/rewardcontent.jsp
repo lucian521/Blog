@@ -28,9 +28,9 @@
                 <c:otherwise>
                     ${post.content}
 
-                    大爷打赏
-                    各位大爷：大老爷们，有钱的捧个钱场，没钱的捧个人场，100万不多，8分不少，觉得喜欢随便打赏，不喜欢就踩两脚。
-                    两种打赏方式：见下图 扫一扫
+                <h1 class="headline" align="center"> 大爷打赏 </h1><br><br><br>
+                <h3 class="headline"> 各位大爷：<br><br>大老爷们，有钱的捧个钱场，没钱的捧个人场，100万不多，8分不少，觉得喜欢随便打赏，不喜欢就踩两脚。
+                    <br><br>两种打赏方式：见下图 扫一扫</h3>
                     <div class="lanrenzhijia">
                         <div class="title cf">
                             <h2 class="fl"></h2>
@@ -98,10 +98,10 @@
                         <div class="titlezfb cf">
                             <h2 class="fl"></h2>
                             <ul class="titlezfb-list fr cf ">
-                                <li class="on">￥1.22</li>
-                                <li>￥2.36</li>
-                                <li>￥5.08</li>
-                                <li>土豪</li>
+                                <li class="on"><h2>￥1.22</h2></li>
+                                <li><h2>￥2.36</h2></li>
+                                <li><h2>￥5.08</h2></li>
+                                <li><h2>土豪</h2></li>
                                 <p><b></b></p>
                             </ul>
                         </div>
@@ -157,9 +157,7 @@
                         </div>
                     </div>
 
-                    <div style="margin-top: 15px; font-style: italic;">
-                        <p style="margin:0;"><strong>原创文章，转载请注明：</strong>转载自<a href="${g.domain}">${g.title} – lucian.com</a></p>
-                    </div>
+
                 </c:otherwise>
             </c:choose>
         </div>
