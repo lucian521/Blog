@@ -14,6 +14,7 @@ public class InitApplicationListener implements ServletContextListener{
     System.setProperty("log4jHome", WebConstants.APPLICATION_PATH);
 
     //todo mastter
+    // master 2022  提交 冲突 测试
   }
 
   @Override
